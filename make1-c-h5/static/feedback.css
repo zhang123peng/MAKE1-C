@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(233,235,235);
+}
+.feedback{
+  position: absolute;
+  padding: 40px 17px;
+  font-size: 4vw;
+  z-index: 50;
+}
+.feedback textarea,
+.feedback input{
+    resize:none;
+    width: 100%;
+    outline: none;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.feedback textarea:focus,
+.feedback input:focus{
+    outline: none;
+    border: 1px solid #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.feedback .feedback-btn{
+    border-radius: 30px;
+}
+
+/* tip 通知 css style */
+/*.tip-body{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-top: 0px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 100;
+}
+.feedback-tip{
+  border-radius: 8px;
+  height: auto;
+  margin: 70px 20px;
+  padding: 25px 10px;
+  background-color: #FFF;
+}
+.feedback-tip .waning-btn{
+  border-radius: 30px;
+  width: 80px;
+  position: relative;
+  left: 50%;
+  margin: 20px 0 0 -40px;
+}*/

@@ -1,0 +1,14 @@
+var domImg = $(".guide-list .guide-text");
+$.each($("img.lazy"), function(id){
+  $(this).lazyload({
+    placeholder : "/images/nutGuide/nut_story_default_img.png",
+    effect: "fadeIn",
+    load: function(elements_left,settings){
+      // console.log(id);
+      setTimeout(function(){
+        domImg.eq(id).addClass('guide-text-show');
+        domImg.eq(id).animate({left: '0'}, "slow")
+      }, 300);
+    }
+  })
+});

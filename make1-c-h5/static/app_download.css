@@ -1,0 +1,309 @@
+/**
+ * app_download  style css
+ */
+/**
+ * old page css
+ */
+.app-download-top{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.app-download-note{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+.app-download-note li{
+	width: 100%;
+	height: auto;
+	line-height: 25px;
+	font-size: 15px;
+	color: #303030;
+	list-style-type: none;
+}
+.app-download{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+/**
+ * h5
+ */
+.app-download img.app-logo{
+	width: 30vw;
+	height: 30vw;
+	margin: 60px 0 19px 0;
+}
+.app-download .title{
+	color: rgba(0,0,0,0.7);
+	width:100%;
+	padding: 0 5px;
+	font-size: 30px;
+}
+.app-download .subtitle{
+	width:100%;
+	margin: 6px 0 24px 0;
+	padding: 0 5px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.7);
+}
+.app-download .content{
+	width:100%;
+	text-align: left;
+	padding: 0 25px;
+	line-height: 20px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+}
+.app-download a.button{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 50%;
+	height: 50px;
+	border: 1px solid rgba(0,0,0,0.8);
+	border-radius:50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 60px auto;
+	font-size: 17px;
+	color: rgba(0,0,0,0.8);
+}
+.app-download img.apple-logo{
+	width: 24px;
+	height:30px;
+	margin-top: -8px;
+	margin-right: 2px;
+}
+/*
+ * tip 
+ */ 
+.app-download-tip{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0px;
+	left:0px;
+}
+.app-download-tip .tip{
+	width: 70%;
+	height: auto;
+	border-radius: 5px;
+	background-color: #FFF;
+	padding: 20px 15px;
+	margin: 65px auto;
+	position: relative;
+	color: rgba(0,0,0,0.8);
+}
+.app-download-tip .tip .title{
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.app-download-tip .tip .content{
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+	text-align: left;
+}
+.app-download-tip .tip img.direction{
+	width: 15%;
+	max-width: 50px;
+	position: absolute;
+	top: -15%;
+	right: -15%;
+}
+/**
+ *  pc
+ */
+.app-download .pc-down{
+	width: 1000px;
+	height: 420px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -500px;
+	margin-top: -210px;
+	text-align: left;
+	background-color: #FFF;
+}
+.app-download .pc-img{
+	width: 300px;
+	height: 420px;
+	float: left;
+}
+.app-download .pc-detail{
+	width: 640px;
+	height: auto;
+	position: relative;
+	top: 70px;
+	margin-left: 360px;
+}
+.app-download .pc-logo{
+	width: 88px;
+	height: 88px;
+	float: left;
+}
+.app-download .pc-sub{
+	margin-left: 120px;
+}
+.app-download .logo-title{
+	width: 200px;
+	height: 58px;
+	font-size: 30px;
+}
+.app-download .logo-subtitle{
+	width: 300px;
+	height: 30px;
+	font-size: 23px;
+}
+.app-download .pc-content{
+	width: 100%;
+	font-size: 17px;
+	line-height: 30px;
+	margin: 30px 0 50px 0;
+}
+.app-download .pc-btn a:hover,
+.app-download .pc-btn a:active,
+.app-download .pc-btn a:link,
+.app-download .pc-btn a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	font-size: 14px;
+	border: 1px solid #000;
+	margin-right: 60px;
+	text-align: center;
+}
+.app-download .pc-btn a img{
+	height: 34px;
+	width: 34px;
+}
+.app-download .pc-btn a span{
+	line-height: 36px;
+}
+/*
+ * nutale pc 
+ */ 
+.app-download .pc-nutale-down {
+	width: 1038px;
+	height: 466px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -519px;
+	margin-top: -233px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.app-download .pc-nutale-img{
+	width: 491px;
+	height: 466px;
+	float: left;
+}
+.app-download .pc-nutale-detail{
+	margin-top: 105px;
+	margin-left: 600px;
+}
+.app-download .pc-nutale-title{
+	height: 90px;
+}
+.app-download .pc-nutale-title .pc-logo{
+	width: 90px;
+	height: 90px;
+}
+.app-download .pc-nutale-title .pc-sub{
+	margin-left: 110px;
+}
+.app-download .pc-nutale-title .logo-title{
+	font-family: '.PingFang-SC-Regular';
+	font-size: 36px;
+	letter-spacing: 0;
+	line-height: 53px;
+}
+.app-download .pc-nutale-title .logo-subtitle{
+	font-family: '.PingFang-SC-Regular';
+	font-size: 20px;
+	letter-spacing: 0;
+}
+.app-download .pc-nutale-detail .pc-content{
+	font-family: 'PingFangSC-Regular';
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	padding-right: 20px;
+}
+.app-download .pc-nutale-detail .pc-btn a{
+	width: 116px;
+	height: 40px;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	margin-right: 26px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.app-download .pc-nutale-detail .pc-btn a img{
+	width: 22px;
+	height: 22px;
+}
+.app-download .pc-nutale-detail .pc-btn a span{
+	font-size: 12px;
+	line-height: 38px;
+}
+/*
+ * h5 nutale
+ */ 
+
+.app-download img.app-nutale-logo{
+	width: 80px;
+	height: 80px;
+	margin: 80px 0 10px 0;
+}
+.app-download .nutale-title{
+	width:100%;
+	font-size: 24px;
+	color: #FFF;
+}
+.app-download .nutale-subtitle{
+	width:100%;
+	margin: 36px 0 13px 0;
+	padding: 0 5px;
+	font-size: 20px;
+	color: #FFF;
+}
+.app-download .nutale-content{
+	width:100%;
+	text-align: center;
+	padding: 0 25px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	text-indent:2em;
+	color: #FFF;
+}
+.app-download a.nutale-button{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	width: 135px;
+	height: 42px;
+	border: 1px solid #4990E2;
+	background-color: #4990E2;
+	border-radius:50px;
+	line-height: 42px;
+	text-align: center;
+	margin: 24px auto;
+	font-size: 15px;
+}
+.app-download img.apple-nutale-logo{
+	width: 22px;
+	height:22px;
+	margin-top: -6px;
+}
+

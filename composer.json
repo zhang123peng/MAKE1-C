@@ -1,0 +1,6 @@
+{
+    "require": {
+        "predis/predis": "^1.1",
+        "curl/curl": "^1.8"
+    }
+}

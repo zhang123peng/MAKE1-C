@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>使用指南</title>
+    <!-- Bootstrap -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/introduction_list.css">
+</head>
+<body>
+    <div class="tabs">
+        <div id="mult" class="tab tab-a focus">功能介绍</div>
+        <div id="comm" class="tab tab-b">常见问题</div>
+    </div>
+    <div id="contentA" class="show">
+        
+        <div class="pro-content" order-id="1">
+            <a class="pro-line" href="./page.html">
+                <div class="pro-title ">为了App能正常使用，请允许后台运行（Android）</div>
+                <div class="pro-img ">
+                    <span><img src="../static/array.png" alt="image error" ／=""></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="contentB" class="hide">
+        
+        <div class="pro-content" order-id="1">
+            <a class="pro-line" href="./page.html">
+                <div class="pro-title ">手机和贴片的提醒距离是多少米？</div>
+                <div class="pro-img ">
+                    <span><img src="../static/array.png" alt="image error" ／=""></span>
+                </div>
+            </a>
+        </div>
+    </div>
+<script type="text/javascript">
+    window.onload = function(){
+        var tabA = document.getElementById("mult");
+        var tabB = document.getElementById("comm");
+        var contentA = document.getElementById("contentA");
+        var contentB = document.getElementById("contentB");
+        var tabNum = sessionStorage.getItem('tab_index');
+
+        tabNum = tabNum? tabNum:'a';;
+        tabNum==='a'? focusA():focusB();
+
+        tabA.onclick = function(){ focusA(); };
+        tabB.onclick = function(){ focusB(); };
+
+        function focusA(){
+            tabA.className = 'tab tab-a focus';
+            tabB.className = 'tab tab-b';
+            contentA.className = 'show';
+            contentB.className = 'hide';
+            sessionStorage.setItem('tab_index', 'a');
+        }
+        function focusB(){
+            tabA.className = 'tab tab-a';
+            tabB.className = 'tab tab-b focus';
+            contentA.className = 'hide';
+            contentB.className = 'show';
+            sessionStorage.setItem('tab_index', 'b');
+        }
+    };
+</script>
+</body></html>

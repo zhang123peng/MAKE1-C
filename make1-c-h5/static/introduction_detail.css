@@ -1,0 +1,33 @@
+body{
+	padding: 0 4.5vw;
+	color: #212121;
+}
+.det-head{
+	width: 100%;
+	height: auto;
+	padding: 10px 0 12px;
+	line-height: 5.5vw;
+	font-size: 4vw;
+}
+.det-line{
+	width: 100%;
+	height:1px;
+	background-color: #E6E6E6;
+}
+.det-content{
+	width: 100%;
+	height: auto;
+}
+.det-content p{
+	width: 100%;
+	height: auto;
+	padding: 10px 0 0 0;
+	line-height: 4.5vw;
+	font-size: 3.5vw;
+}
+.det-content p img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding: 5px 0;
+}

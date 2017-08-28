@@ -1,0 +1,61 @@
+/*introduction css*/
+.pro-content a:hover,.pro-content a:visited,.pro-content a:link{
+	color: rgba(0,0,0,0.8);
+}
+.pro-content{
+	padding: 0 3vw;
+    width: 100%;
+}
+.pro-line{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin: 0;
+	border-bottom: solid 1px rgba(0,0,0,0.05);
+
+}
+.pro-title{
+	width: 89vw;
+	height: auto;
+	float: left;
+	font-size: 4vw;
+	line-height: 10vw;
+}
+.pro-img{
+	width: 5vw;
+	height: 5vw;
+	float: left;
+}
+.pro-img img{
+	width: 3vw;
+	height: 5vw;
+	float: right;
+	margin-top: 2.5vw;
+}
+
+/*tab css*/
+.tab{
+    width: 100%;
+    height: 12vw;
+    line-height: 12vw;
+    font-size: 4.5vw;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e4e6e2;
+    color: #a0a0a0;
+    text-align: center;
+}
+.tab-a{
+    float: left;
+    width: 50%;
+}
+.tab-b{
+    width: auto;
+    margin-left: 50%;
+    border-left: 1px solid #e4e6e2;
+}
+.tab.focus{
+    background-color: transparent;
+    color: black;
+}
+.show {display: block;}
+.hide {display: none;}

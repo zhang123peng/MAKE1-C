@@ -1,0 +1,47 @@
+
+/**
+ * 确认按钮	
+ * **/
+.btn {
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	border:none;
+
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+.green {
+	color: #ffffff;
+	background: #44C697; /* Old browsers */
+	
+}
+
+/* Blue Color */
+
+.blue {
+	color: #19667d;
+	background: #70c9e3; /* Old browsers */
+}
+
+/* Gray Color */
+
+.gray {
+	color: #515151;
+	background: #d3d3d3; /* Old browsers */
+}
+
+.center{
+	display: table;
+	margin:0 auto;
+	width:auto;
+}
